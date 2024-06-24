@@ -1,3 +1,5 @@
+# variables.tf
+
 variable "project_id" {
   description = "GCP project ID"
   type        = string
@@ -50,5 +52,5 @@ variable "ssh_user" {
 
 variable "ssh_key" {
   description = "SSH public key for accessing the instance"
-  type        = string
+  type        = number
 }
