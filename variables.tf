@@ -44,13 +44,3 @@ variable "tags" {
   type        = list(string)
   default     = ["web", "dev"]
 }
-
-variable "ssh_user" {
-  description = "SSH user for accessing the instance"
-  type        = string
-}
-
-variable "ssh_key" {
-  description = "SSH public key for accessing the instance"
-  type        = number
-}
