@@ -10,11 +10,6 @@ variable "region" {
   type        = string
 }
 
-variable "zone" {
-  description = "Zone to deploy the instance in"
-  type        = string
-}
-
 variable "instance_name" {
   description = "Name of the VM instance"
   type        = string
