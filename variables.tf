@@ -24,7 +24,7 @@ variable "instance_name" {
 variable "machine_type" {
   description = "Machine type to use for the instance"
   type        = string
-  default     = "f1-micro"
+  default     = "e2-micro"
 }
 
 variable "image" {
